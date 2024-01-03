@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4697/4697260.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="time">
+            <p>Time:</p>
+            <h1 id="abc"></h1>
+        </div>
+        <div class="date">
+            <p>Date:</p>
+            <h1 id="xyz"></h1>
+        </div>
+        <div class="todo-app">
+            <h1>TO-DO LIST</h1>
+            <img src="https://media1.giphy.com/media/xHXc4OSNWTGTp5nPSc/giphy.gif" class="todo-icon">
+            <div class="feilds">
+                <form action="">
+                    <input type="text" id="task" autocomplete="off" autofocus>
+                    <button onclick="addTask()">ADD TASK</button>
+                </form>
+            </div>
+            <div class="my-task">
+                <ul class="task-list" type="none">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
